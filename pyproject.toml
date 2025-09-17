@@ -1,0 +1,20 @@
+[project]
+name = "nba"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "arcstone09",email = "hslee0324@snu.ac.kr"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi (>=0.116.1,<0.117.0)",
+    "uvicorn (>=0.35.0,<0.36.0)",
+    "pymysql (>=1.1.2,<2.0.0)",
+    "cryptography (>=46.0.1,<47.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
